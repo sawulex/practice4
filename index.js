@@ -1,5 +1,8 @@
 import { calculate_salary } from './calculate_salary.js';
 
+let salary = calculate_salary('accountant');
+console.log(salary);
+
 let worker1 = {
   name: 'Вася',
   role: 'worker',
